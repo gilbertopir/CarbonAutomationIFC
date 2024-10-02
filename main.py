@@ -25,7 +25,7 @@ if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 
 # Streamlit title and description
-st.image("https://www.tonygee.com/wp-content/uploads/2021/06/SocialImg.jpg",width=250)
+st.image("https://www.workspace-interiors.co.uk/application/files/thumbnails/xs/3416/1530/8285/tony_gee_large_logo_no_background.png",width=250)
 st.title("Tony Gee Manchester, Carbon Report Automation")
 st.write("Drag and drop CSV files below to upload them.")
 

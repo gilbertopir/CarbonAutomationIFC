@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 def factorstemplate(mat):
-    factors=open("/mount/src/carbonautomation/Streamlit_Automation_Rev01/Templates/Factors.csv", "r")
+    factors=open("/mount/src/carbonautomationifc/Templates/Factors.csv", "r")
     factors=factors.read().split('\n')
     factors.pop(0)
     #templevel=[]
@@ -24,7 +24,7 @@ def factorstemplate(mat):
     input()
     
 def mattemplate(level):
-    materials=open("/mount/src/carbonautomation/Streamlit_Automation_Rev01/Templates/MaterialsBYLevels.csv", "r")
+    materials=open("/mount/src/carbonautomationifc/Templates/MaterialsBYLevels.csv", "r")
     materials=materials.read().split('\n')
     materials.pop(0)
     #templevel=[]
